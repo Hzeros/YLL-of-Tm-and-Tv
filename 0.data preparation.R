@@ -31,8 +31,7 @@ library(lubridate);library(tictoc)
 library(dplyr)
 
 ##load the dataset
-  #note: We randomly selected 20 locations 
-  #from the national database as examples
+  #note: We randomly selected 20 locations from the national database as examples
 data <- read.csv("./dataset/Sample dataset.csv",stringsAsFactors = F)
 data$date <- as.Date(data$date)
 
